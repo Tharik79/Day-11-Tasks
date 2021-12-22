@@ -1,0 +1,138 @@
+
+/* CSS Coding for mini Task 3 below 
+Design a contact us form with all fields as required.*/
+
+.contact{
+    color: rgb(105, 19, 190);
+    
+}
+.cool{
+    margin-right: 70%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: rgb(156, 245, 211);
+    padding: 20px;
+}
+.fname,.text,.number, .email{
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.label{
+    margin-left: 20px;
+}
+.button{
+    color:white;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(35, 231, 117);
+    }
+.button:hover{
+        background-color: rgb(117, 75, 185);
+}
+
+/* coding for mini Task 4 below 
+Use certain HTML elements to display the following in a HTML page.*/
+
+.myStyle{
+    list-style-type: circle;
+}
+
+/* Coding for mini Task 5 below
+Create an element that helps you to open the https://google.com in separate new tab. */
+
+.myDesign{
+    font-size: 7mm;
+}
+.fcolor:hover{
+    color: red;
+}
+
+/* Coding for mini Task 6 below
+In the form, add two radio buttons with grouping them for employee type(Salaried and own business) */
+.business{
+    background-color: sandybrown;
+    margin-right: 70%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 20px;
+
+} 
+.enroll{
+    color: rgb(15, 199, 54);
+    font-style: oblique;
+}
+
+/* coding for mini Task 7
+Subcription Form for Mag-o-Zine */
+
+.leg{
+    background-color: red;
+    color: white;
+    font-style: initial;
+    font-weight: bold;
+}
+.subdetails{
+    background-color: rgb(245, 189, 217);
+    margin-right: 70%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.navbar ul li{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+
+/* code for mini Task no. 11 */
+ul, li{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.navbar{
+    background-color: rgb(116, 211, 124);
+    text-align: center;
+    
+}
+.radio{
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+#hobby{
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+}
+.textarea{
+    padding: 15px;
+    margin: 10px;
+    font-size: medium;
+    width: 80%;
+    height: 30%;
+    border-radius: 10px;
+}
+.btn{
+    color:white;
+    margin: 10px;
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(197, 90, 170);
+    }
+    #hobby>option{
+        margin-left: 20px;
+    }
+     
+    
+   

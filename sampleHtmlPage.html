@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "miniTasks.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Registration</a></li>
+          </ul>
+        </nav>
+    </section>    
+
+
+    <h2>Registration form</h2>  
+    <form >  
+     <fieldset class="cool">  
+        <legend>User personal information</legend>  
+        <label class="label">Enter your full name</label><br>  
+        <input class ="text" type="text" name="name"><br>  
+         <label class="label">Enter your email</label><br>  
+         <input class ="email" type="email" name="email"><br>  
+         <label class="label">Enter your password</label><br>  
+         <input class ="text" type="password" name="pass"><br>  
+         <label class="label">confirm your password</label><br>  
+         <input class ="text" type="password" name="pass"><br>  
+         <br><label class="radio">Enter your gender</label><br>  
+         <input  class="radio" type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+         <input  class="radio" type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input  class="radio" type="radio" id="gender" name="gender" value="others"/>others <br/>  
+         <label for="Hobbies" class="label">Choose your Hobby:</label><br>
+        <select id="hobby" name="choose" size="4" multiple>
+        <option value="movies">Movies</option>
+        <option value="music">Music</option>
+        <option value="cricket">Cricket</option>
+        <option value="reading">Reading</option>
+        </select><br>
+                 
+          <br>Enter your Address:<br>  
+         <textarea class="textarea">Enter your detail Address...</textarea><br>  
+         <button class ="btn" type="submit" onclick="alert('You are submitted')"value="sign-up"> Sign Up</button> 
+     </fieldset>  
+  </form>  
+
+  
+</body>
+</html>
